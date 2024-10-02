@@ -109,6 +109,13 @@ body {
 }
 
 .profilename {
+    max-width: 30vh;
+    height: auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+.profilename h2 {
     color: #007AF5;
     height: min-content;
     font-size: clamp(1rem, 2vw, 3rem);
@@ -122,7 +129,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: left;
-    font-size: clamp(1rem, 2vw, 2rem);
+    font-size: clamp(1rem, 1.4vw, 2rem);
     font-weight: 900;
     animation: enterLeft 0.5s ease forwards;
     animation-delay: 0.1s;
@@ -210,7 +217,7 @@ body {
 
 .middleright {
     background-color: #0051a3da;
-    font-size: clamp(1rem, 2vw, 2rem);
+    font-size: clamp(1rem, 2vw, 1.8rem);
     font-weight: 800;
     display: flex;
     justify-content: center;
