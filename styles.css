@@ -3,6 +3,7 @@
         transform: translateY(5%);
         opacity: 0;
     }
+
     100% {
         transform: translateY(0);
         opacity: 1;
@@ -14,6 +15,7 @@
         transform: translateY(-100%);
         opacity: 0;
     }
+
     100% {
         transform: translateY(0);
         opacity: 1;
@@ -25,6 +27,7 @@
         transform: translateX(-80%);
         opacity: 0;
     }
+
     100% {
         transform: translateY(0);
         opacity: 1;
@@ -36,6 +39,7 @@
         transform: translateX(30%);
         opacity: 0;
     }
+
     100% {
         transform: translateY(0);
         opacity: 1;
@@ -46,6 +50,7 @@
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -82,9 +87,9 @@ body {
     max-width: 100%;
     opacity: 0;
     display: flex;
-    background-color: #303841d7;
+    background-color: #303841ab;
     border-radius: 20px;
-    text-align: center;    
+    text-align: center;
 }
 
 .center {
@@ -104,9 +109,17 @@ body {
 }
 
 .profilename {
+    max-width: 30vh;
+    height: auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+.profilename h2 {
+    color: #007AF5;
     height: min-content;
-    font-size: clamp(1rem, 2vw, 2rem);
-    font-weight: bolder;
+    font-size: clamp(1rem, 2vw, 3rem);
+    font-weight: 900;
 }
 
 .topleft {
@@ -116,14 +129,14 @@ body {
     display: flex;
     flex-direction: column;
     text-align: left;
-    font-size: clamp(1rem, 2vw, 2rem);
+    font-size: clamp(1rem, 1.4vw, 2rem);
     font-weight: 900;
     animation: enterLeft 0.5s ease forwards;
     animation-delay: 0.1s;
 }
 
 .topleft p {
-    font-size: clamp(0.8rem, 1vw, 1rem);
+    font-size: clamp(0.8rem, 1vw, 1.3rem);
     line-height: 1.5;
     font-weight: 400;
 }
@@ -148,9 +161,9 @@ body {
 }
 
 .bottomright {
-    padding-left: 15px;
     display: flex;
     flex-direction: column;
+    padding-left: 15px;
     text-align: left;
     font-size: clamp(1rem, 2vw, 2rem);
     font-weight: 900;
@@ -159,10 +172,42 @@ body {
     animation-delay: 0.3s;
 }
 
+.bottomright span {
+    height: 30px;
+}
+
+.education {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.educationtitle {
+    margin-top: 5px;
+    font-size: clamp(0.8rem, 1vw, 1.5rem);
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.educationdate {
+    font-size: clamp(0.6rem, 1vw, 0.8rem);
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ebf5ffa9;
+}
+
+.educationcontent {
+    font-size: clamp(0.6rem, 1vw, 1rem);
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ebf5ffa9;
+    margin-bottom: 25px;
+}
+
 .middleleft {
-    background-color: #0052A3;
+    background-color: #0051a3da;
     font-size: clamp(1rem, 2vw, 2rem);
-    font-weight:800;
+    font-weight: 800;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,8 +216,8 @@ body {
 }
 
 .middleright {
-    background-color: #0052A3;
-    font-size: clamp(1rem, 2vw, 2rem);
+    background-color: #0051a3da;
+    font-size: clamp(1rem, 2vw, 1.8rem);
     font-weight: 800;
     display: flex;
     justify-content: center;
