@@ -97,15 +97,15 @@ body {
 }
 
 .profileimage {
-    height: 80px;
-    width: 80px;
-    border-radius: 40px;
+    max-width: 5vw;
+    height: auto;
+    border-radius: 5vw;
     object-fit: cover;
 }
 
 .profilename {
     height: min-content;
-    font-size: 2rem;
+    font-size: clamp(1rem, 2vw, 2rem);
     font-weight: bolder;
 }
 
@@ -116,14 +116,14 @@ body {
     display: flex;
     flex-direction: column;
     text-align: left;
-    font-size: 2em;
+    font-size: clamp(1rem, 2vw, 2rem);
     font-weight: 900;
     animation: enterLeft 0.5s ease forwards;
     animation-delay: 0.1s;
 }
 
 .topleft p {
-    font-size: 1rem;
+    font-size: clamp(0.8rem, 1vw, 1rem);
     line-height: 1.5;
     font-weight: 400;
 }
@@ -140,7 +140,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: left;
-    font-size: 2rem;
+    font-size: clamp(1rem, 2vw, 2rem);
     font-weight: 900;
     grid-area: 4 / 1 / 8 / -3;
     animation: enterUp 0.5s ease forwards;
@@ -152,7 +152,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: left;
-    font-size: 2rem;
+    font-size: clamp(1rem, 2vw, 2rem);
     font-weight: 900;
     grid-area: 5 / 2 / -1 / -1;
     animation: enterRight 0.5s ease forwards;
@@ -161,7 +161,7 @@ body {
 
 .middleleft {
     background-color: #0052A3;
-    font-size: 2rem;
+    font-size: clamp(1rem, 2vw, 2rem);
     font-weight:800;
     display: flex;
     justify-content: center;
@@ -172,7 +172,7 @@ body {
 
 .middleright {
     background-color: #0052A3;
-    font-size: 2rem;
+    font-size: clamp(1rem, 2vw, 2rem);
     font-weight: 800;
     display: flex;
     justify-content: center;
@@ -186,4 +186,17 @@ body {
     height: 100%;
     border-radius: 20px;
     object-fit: cover;
+}
+
+.iconcontainer {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.iconcontainer i {
+    width: 50px;
+    height: 50px;
 }
