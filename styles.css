@@ -69,8 +69,40 @@
 body {
     background-color: #010103;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+.homemenu {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 20px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #303841ab;
+    border-radius: 15px;
+    animation: enterDown 0.5s ease forwards;
+}
+
+.homebutton,
+.projectsbutton,
+.contactbutton {
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bf5c2;
+    transition: 0.2s ease;
+}
+
+.homebutton:hover,
+.projectsbutton:hover,
+.contactbutton:hover {
+    background-color: #303841ab;
 }
 
 .homecontainer {
@@ -206,7 +238,7 @@ body {
 
 .middleleft {
     background-color: #0051a3da;
-    font-size: clamp(1rem, 2vw, 2rem);
+    font-size: clamp(1rem, 1.5vw, 2rem);
     font-weight: 800;
     display: flex;
     justify-content: center;
@@ -217,7 +249,7 @@ body {
 
 .middleright {
     background-color: #0051a3da;
-    font-size: clamp(1rem, 2vw, 1.8rem);
+    font-size: clamp(0.8rem, 1.4vw, 1.8rem);
     font-weight: 800;
     display: flex;
     justify-content: center;
