@@ -74,6 +74,7 @@ body {
     justify-content: center;
 }
 
+
 .homemenu {
     padding: 5px;
     display: flex;
@@ -88,6 +89,7 @@ body {
     animation: enterDown 0.5s ease forwards;
 }
 
+
 .homebutton,
 .projectsbutton,
 .contactbutton {
@@ -95,7 +97,7 @@ body {
     height: 40px;
     border: none;
     border-radius: 10px;
-    background-color: #007bf5c2;
+    background-color: #00478F;
     transition: 0.2s ease;
 }
 
@@ -103,6 +105,10 @@ body {
 .projectsbutton:hover,
 .contactbutton:hover {
     background-color: #303841ab;
+}
+
+.linkActive {
+    background-color: #007bf5c2;
 }
 
 .homecontainer {

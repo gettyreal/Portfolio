@@ -16,15 +16,20 @@
     </head>
     <body>
         <div class="homemenu">
-            <button class="homebutton">Home</button>
-            <button class="projectsbutton">Projects</button>
-            <button class="contactbutton">Contact</button>
+            <a href="index.html"><button class="homebutton linkActive" id="home"
+                    onclick="homeLink()">Home</button></a>
+            <a href="projects.html"><button class="projectsbutton" id="projects"
+                    onclick="projectsLink()">Projects</button></a>
+            <a href="contact.html"> <button class="contactbutton" id="contact"
+                    onclick="contactLink()">Contact</button>
+            </a>
         </div>
-        <div class="homecontainer">
+        <div class="homecontainer" id="homecontent">
             <div class="griddiv center">
                 <img id="profile-image" alt="profile image"
                     class="profileimage">
-                <a href="https://github.com/gettyreal" target="_blank" class="profilename"><h2 id="profile-name"></h2></a>
+                <a href="https://github.com/gettyreal" target="_blank"
+                    class="profilename"><h2 id="profile-name"></h2></a>
             </div>
             <div class="griddiv topleft">
                 Chi Sono?
@@ -59,14 +64,18 @@
                             Scuola Superiore
                             <span class="educationdate">(2021 - current)</span>
                         </span>
-                        <span class="educationcontent">Al momento sto frequentanto un ITIS informatico presso l'ISS Leonardo Da Vinci a Carate</span>
+                        <span class="educationcontent">Al momento sto
+                            frequentanto un ITIS informatico presso l'ISS
+                            Leonardo Da Vinci a Carate</span>
                     </div>
                     <div class="education">
                         <span class="educationtitle">
                             Bro code Html Css Js course
                             <span class="educationdate">(2024 - current)</span>
                         </span>
-                        <span class="educationcontent">Ho concluso il corso completo sul Frontend di BroCode (best man on heart frfr)</span>
+                        <span class="educationcontent">Ho concluso il corso
+                            completo sul Frontend di BroCode (best man on heart
+                            frfr)</span>
                     </div>
                 </p>
             </div>
