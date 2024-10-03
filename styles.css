@@ -84,7 +84,7 @@ body {
     margin-bottom: 20px;
     width: fit-content;
     height: fit-content;
-    background-color: #303841ab;
+    background-color: #282e35;
     border-radius: 15px;
     animation: enterDown 0.5s ease forwards;
 }
@@ -97,18 +97,19 @@ body {
     height: 40px;
     border: none;
     border-radius: 10px;
-    background-color: #00478F;
+    background-color: #282e35;
     transition: 0.2s ease;
 }
 
 .homebutton:hover,
 .projectsbutton:hover,
 .contactbutton:hover {
-    background-color: #303841ab;
+    font-weight: 500;
 }
 
 .linkActive {
     background-color: #007bf5c2;
+    font-weight: 700;
 }
 
 .homecontainer {
@@ -267,7 +268,7 @@ body {
 .image {
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 15px;
     object-fit: cover;
 }
 
@@ -282,4 +283,67 @@ body {
 .iconcontainer i {
     width: 50px;
     height: 50px;
+}
+
+.projectscontainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    height: 80%;
+}
+
+.project1,
+.project1-img {
+    width: 50%;
+    height:50%;
+    border-radius: 15px;
+}
+
+.project1-img {
+    opacity: 0;
+    animation: enter 0.5s ease forwards;
+    animation-delay: 0.35s;
+}
+
+
+.project1 {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-description {
+    opacity: 0;
+    width: 100%;
+    height: 70%;
+    background-color: #303841ab;
+    border-radius: 15px;
+    animation: enterDown 0.5s ease forwards;
+    animation-delay: 0.3s;
+}
+
+.project-link {
+    opacity: 0;
+    width: 100%;
+    height: 25%;
+    background-color: #303841ab;
+    border-radius: 15px;
+    animation: enter 0.53s ease forwards;
+
+}
+
+.project-link a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.fa-link {
+    width: 50px;
+    height: 1px;
 }
