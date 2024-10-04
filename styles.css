@@ -211,36 +211,29 @@ body {
     animation-delay: 0.3s;
 }
 
-.bottomright span {
-    height: 30px;
+.education-div{
+    display:flex;
+    flex-direction: column;
 }
 
-.education {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0;
-}
-
-.educationtitle {
-    margin-top: 5px;
+.education-title {
     font-size: clamp(0.8rem, 1vw, 1.5rem);
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.5;
 }
 
-.educationdate {
+.education-date {
     font-size: clamp(0.6rem, 1vw, 0.8rem);
     font-weight: 400;
     line-height: 1.5;
     color: #ebf5ffa9;
 }
 
-.educationcontent {
-    font-size: clamp(0.6rem, 1vw, 1rem);
-    font-weight: 400;
+.education-text {
+    font-size: clamp(0.6rem, 1vw, 0.8rem);
+    font-weight: 300;
     line-height: 1.5;
     color: #ebf5ffa9;
-    margin-bottom: 25px;
 }
 
 .middleleft {
