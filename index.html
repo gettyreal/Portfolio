@@ -1,87 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Getty's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Getty's Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <link
+            href="https://api.fontshare.com/v2/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
 
-<body>
-    <div class="homemenu">
-        <a href="index.html"><button class="homebutton linkActive" id="home" onclick="homeLink()">Home</button></a>
-        <a href="projects.html"><button class="projectsbutton" id="projects"
-                onclick="projectsLink()">Projects</button></a>
-        <a href="contact.html"> <button class="contactbutton" id="contact" onclick="contactLink()">Contact</button>
-        </a>
-    </div>
-    <div class="homecontainer" id="homecontent">
-        <div class="griddiv center">
-            <img id="profile-image" alt="profile image" class="profileimage">
-            <a href="https://github.com/gettyreal" target="_blank" class="profilename">
-                <h2 id="profile-name"></h2>
+    <body>
+        <div class="homemenu">
+            <a href="index.html"><button class="homebutton linkActive" id="home"
+                    onclick="homeLink()">Home</button></a>
+            <a href="projects.html"><button class="projectsbutton" id="projects"
+                    onclick="projectsLink()">Projects</button></a>
+            <a href="contact.html"> <button class="contactbutton" id="contact"
+                    onclick="contactLink()">Contact</button>
             </a>
         </div>
-        <div class="griddiv topleft">
-            Chi Sono?
-            <p>Ciao, sono Stefano Giorgetti, studente informatico presso
-                l'IIS leonardo da vinci di Carate. Sono appassionato di
-                programmazione,palestra e IT. se avete un
-                progetto in cui volete che partecipi non aspettate a
-                contattarmi! </p>
-        </div>
-        <div class="griddiv middleleft">
-            Student & Aspiring Programmer
-        </div>
-        <div class="griddiv left">
-            Tecnologie Con cui ho Lavorato:
-            <div class="iconcontainer">
-                <i class="fa-brands fa-html5 fa-lg"></i>
-                <i class="fa-brands fa-css3-alt fa-lg"></i>
-                <i class="fa-brands fa-js fa-lg"></i>
-                <i class="fa-brands fa-java fa-lg"></i>
-                <i class="fa-brands fa-github fa-lg"></i>
-                <i class="fa-brands fa-git-alt fa-lg"></i>
+        <div class="homecontainer" id="homecontent">
+            <div class="griddiv center">
+                <img id="profile-image" alt="profile image"
+                    class="profileimage">
+                <a href="https://github.com/gettyreal" target="_blank"
+                    class="profilename">
+                    <h2 id="profile-name"></h2>
+                </a>
+            </div>
+            <div class="griddiv topleft">
+                Chi Sono?
+                <p>Ciao, sono Stefano Giorgetti, studente informatico presso
+                    l'IIS leonardo da vinci di Carate. Sono appassionato di
+                    programmazione,palestra e IT. se avete un
+                    progetto in cui volete che partecipi non aspettate a
+                    contattarmi! </p>
+            </div>
+            <div class="griddiv middleleft">
+                Student & Aspiring Programmer
+            </div>
+            <div class="griddiv left">
+                Tecnologie:
+                <div class="iconcontainer">
+                    <i class="fa-brands fa-html5 fa-lg"></i>
+                    <i class="fa-brands fa-css3-alt fa-lg"></i>
+                    <i class="fa-brands fa-js fa-lg"></i>
+                    <i class="fa-brands fa-java fa-lg"></i>
+                    <i class="fa-brands fa-github fa-lg"></i>
+                    <i class="fa-brands fa-git-alt fa-lg"></i>
+                </div>
+            </div>
+            <div class="griddiv right">
+                <img src="./public/pc-setup.webp" class="image" alt="pc-setup">
+            </div>
+            <div class="griddiv bottomright">
+                <div class="education-div">
+                    <div>Educazione:</div>
+
+                    <div class="education-item">
+                        <div class="education-title">Scuola Superiore</div>
+                        <div class="education-date">(2021 - current)</div>
+                    </div>
+                    <div class="education-text">Al momento sto frequentando un
+                        ITIS informatico presso l'ISS Leonardo Da Vinci a
+                        Carate</div>
+
+                    <div class="education-item">
+                        <div class="education-title">Bro code Html Css Js
+                            course</div>
+                        <div class="education-date">(2024 - current)</div>
+                    </div>
+                    <div class="education-text">Ho concluso il corso completo
+                        sul Frontend creato da BroCode</div>
+                </div>
+
+            </div>
+            <div class="griddiv middleright">
+                "La determinazione di oggi costruisce il successo di domani."
             </div>
         </div>
-        <div class="griddiv right">
-            <img src="./public/pc-setup.webp" class="image" alt="pc-setup">
-        </div>
-        <div class="griddiv bottomright">
-            <p class="education-div">
-                <span>Educazione: </span>
 
-                <span>
-                    <span class="education-title">Scuola Superiore</span>
-                    <span class="education-date">(2021 - current)</span>
-                </span>
-                <span class="education-text">Al momento sto
-                    frequentanto un ITIS informatico presso l'ISS
-                    Leonardo Da Vinci a Carate
-                </span>
-
-                <span>
-                    <span class="education-title">Bro code Html Css Js course</span>
-                    <span class="education-date">(2024 - current)</span>    
-                </span>
-                <span class="education-text">Ho concluso il corso
-                    completo sul Frontend creato da BroCode
-                </span>
-            </p>
-        </div>
-        <div class="griddiv middleright">
-            "La determinazione di oggi costruisce il successo di domani."
-        </div>
-    </div>
-
-    <script src="index.js"></script>
-</body>
+        <script src="index.js"></script>
+    </body>
 
 </html>
