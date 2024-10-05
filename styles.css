@@ -391,3 +391,65 @@ body {
     padding: 0px 10px;
     background-color: #007AF5;
 }
+
+.contactcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 35%;
+    height: 80%;
+    gap: 40px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.work-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.github-link {
+    border-radius: 10px;
+    background-color: #303841ab;
+}
+
+.email-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #303841ab;
+}
+
+.email-div {
+    display: flex;
+    gap: 5px;
+    background-color: #007AF5;
+    border-radius: 5px;
+    padding: 5px;
+    width: max-content;
+    height: max-content;
+    font-size: clamp(0.6rem, 1vw, 1.3rem);
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.fa-envelope {
+    margin-top: 3.5%;
+}
+
+.social-links {
+    border-radius: 10px;
+    background-color: #303841ab;
+}
+
+.contact-form {
+    background-color: #303841ab;
+    border-radius: 10px;
+}
