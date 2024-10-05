@@ -415,7 +415,7 @@ body {
 }
 
 .github-link {
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #303841ab;
 }
 
@@ -423,7 +423,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #303841ab;
 }
 
@@ -431,8 +431,8 @@ body {
     display: flex;
     gap: 5px;
     background-color: #007AF5;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 15px;
+    padding: 5px 10px;
     width: max-content;
     height: max-content;
     font-size: clamp(0.6rem, 1vw, 1.3rem);
@@ -445,11 +445,11 @@ body {
 }
 
 .social-links {
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #303841ab;
 }
 
 .contact-form {
     background-color: #303841ab;
-    border-radius: 10px;
+    border-radius: 20px;
 }
