@@ -76,7 +76,7 @@ body {
 
 .fa-brands {
     width: max-content;
-    height: max-content;
+    height: fit-content;
 }
 
 .homemenu {
@@ -492,10 +492,25 @@ body {
 }
 
 .socials {
+    padding-top: 20px;
+    text-align: center;
+    gap: 10vh;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-content: flex-start;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.social-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+
+.social-line i {
+    width: 40px;
 }
 
 .contact-form {
