@@ -74,6 +74,10 @@ body {
     justify-content: center;
 }
 
+.fa-brands {
+    width: max-content;
+    height: fit-content;
+}
 
 .homemenu {
     padding: 5px;
@@ -88,7 +92,6 @@ body {
     border-radius: 15px;
     animation: enterDown 0.5s ease forwards;
 }
-
 
 .homebutton,
 .projectsbutton,
@@ -188,7 +191,6 @@ body {
 }
 
 .left {
-    padding-left: 15px;
     display: flex;
     flex-direction: column;
     font-size: clamp(1rem, 2vw, 2rem);
@@ -390,4 +392,128 @@ body {
     line-height: 1.5;
     padding: 0px 10px;
     background-color: #007AF5;
+}
+
+.contactcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 35%;
+    height: 80%;
+    gap: 40px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.work-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.github-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #303841ab;
+}
+
+.github-profile {
+    font-size: clamp(0.8rem, 1.3vw, 1.5rem);
+    line-height: 1.5;
+    font-weight: 900;
+    width: max-content;
+    height: max-content;
+}
+
+.github-description {
+    font-size: clamp(0.6rem, 1vw, 1rem);
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ebf5ffa9;
+    width: max-content;
+    height: max-content;
+}
+
+.githubicon {
+    width: max-content;
+    height: 15px;
+}
+
+.email-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #303841ab;
+}
+
+.email-div {
+    display: flex;
+    gap: 5px;
+    background-color: #007AF5;
+    border-radius: 15px;
+    padding: 5px 10px;
+    width: max-content;
+    height: max-content;
+    font-size: clamp(0.6rem, 1vw, 1.3rem);
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.fa-envelope {
+    margin-top: 3.5%;
+}
+
+.social-links {
+    padding-top: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #303841ab;
+}
+
+.social-title {
+    font-size: clamp(1rem, 2vw, 2rem);
+    font-weight: 900;
+    line-height: 1.5;
+    text-align: center;
+    width: max-content;
+    height: max-content;
+}
+
+.socials {
+    padding-top: 20px;
+    text-align: center;
+    gap: 10vh;
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.social-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+
+.social-line i {
+    width: 40px;
+}
+
+.contact-form {
+    background-color: #303841ab;
+    border-radius: 20px;
 }
