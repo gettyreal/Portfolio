@@ -77,6 +77,11 @@ body {
 .svg {
     width: 2.5vw;
     height: 2.5vw;
+    transition: 0.3s;
+}
+
+.svg:hover {
+    scale: 1.1;
 }
 
 .homemenu {
@@ -423,6 +428,13 @@ body {
     animation-delay: 0.3s;
 }
 
+.github-link a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+
 .github-profile {
     font-size: clamp(0.8rem, 1.3vw, 1.5rem);
     line-height: 1.5;
@@ -471,6 +483,7 @@ body {
 }
 
 .social-links {
+    padding: 1vw;
     opacity: 0;
     display: flex;
     flex-direction: column;
@@ -487,8 +500,14 @@ body {
     justify-content: space-evenly;
 }
 
+.social-line a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 .title {
-    margin-top: 2vw;
+    margin-top: 1vw;
     height: fit-content;
     font-size: clamp(1rem, 1.5vw, 2rem);
     font-weight: 800;

@@ -1,64 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Getty's Portfolio</title>
-        <link rel="stylesheet" href="styles.css">
-        <link
-            href="https://api.fontshare.com/v2/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
-    <body>
-        <div class="homemenu">
-            <a href="index.html"><button class="homebutton" id="home"
-                    onclick="homeLink()">Home</button></a>
-            <a href="projects.html"><button class="projectsbutton" id="projects"
-                    onclick="projectsLink()">Projects</button></a>
-            <a href="contact.html"> <button class="contactbutton linkActive" id="contact"
-                    onclick="contactLink()">Contact</button>
-            </a>
-        </div>
-        <div class="contactcontainer">
-            <div class="links">
-                <div class="work-links">
-                    <div class="email-link">
-                        <div class="email-div">
-                            <img src="./public/icons/envelope-solid.svg" alt="mail link" class="svg mail">
-                            stefano.getty@gmail.com
-                        </div>
-                    </div>
-                    <div class="github-link">
-                        <img src="./public/icons/github-brands-solid.svg" alt="git-hub link" class="svg github">
-                        <div class="github-profile">GitHub Profile</div>
-                        <div class="github-description">sfoglia le mie repositories</div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getty's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="homemenu">
+        <a href="index.html"><button class="homebutton" id="home" onclick="homeLink()">Home</button></a>
+        <a href="projects.html"><button class="projectsbutton" id="projects"
+                onclick="projectsLink()">Projects</button></a>
+        <a href="contact.html"> <button class="contactbutton linkActive" id="contact"
+                onclick="contactLink()">Contact</button>
+        </a>
+    </div>
+    <div class="contactcontainer">
+        <div class="links">
+            <div class="work-links">
+                <div class="email-link">
+                    <div class="email-div">
+                        <img src="./public/icons/envelope-solid.svg" alt="mail link" class="mail">
+                        stefano.getty@gmail.com
                     </div>
                 </div>
-                <div class="social-links">
-                    <div class="social-line title">
-                        My Socials:
-                    </div>
-                    <div class="social-line">
-                        <img src="./public/icons/instagram-brands-solid.svg" alt="instagram link" class="svg instagram">
-                        <img src="./public/icons/square-facebook-brands-solid.svg" alt="facebook link" class="svg facebook">    
-                    </div>
-                    <div class="social-line">
-                        <img src="./public/icons/telegram-brands-solid.svg" alt="telegram link" class="svg telegram">
-                        <img src="./public/icons/discord-brands-solid.svg" alt="discord link" class="svg discord">                            
-                    </div>
+                <div class="github-link">
+                    <a href="https://github.com/gettyreal" target="_blank"><img src="./public/icons/github-brands-solid.svg"
+                            alt="git-hub link" class="svg github">
+                    </a>
+                    <div class="github-profile">GitHub Profile</div>
+                    <div class="github-description">sfoglia le mie repositories</div>
                 </div>
             </div>
-
-            <div class="contact-form">
-
+            <div class="social-links">
+                <div class="social-line title">
+                    My Socials:
+                </div>
+                <div class="social-line">
+                    <a href=""><img src="./public/icons/instagram-brands-solid.svg" alt="instagram link"
+                            class="svg instagram"></a>
+                    <a href=""> <img src="./public/icons/square-facebook-brands-solid.svg" alt="facebook link"
+                            class="svg facebook">
+                    </a>
+                </div>
+                <div class="social-line">
+                    <a href=""><img src="./public/icons/telegram-brands-solid.svg" alt="telegram link"
+                            class="svg telegram"></a>
+                    <a href=""><img src="./public/icons/discord-brands-solid.svg" alt="discord link"
+                            class="svg discord"></a>
+                </div>
             </div>
         </div>
 
-        <script src="index.js"></script>
-    </body>
+        <div class="contact-form">
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
 </html>
