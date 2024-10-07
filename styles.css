@@ -443,11 +443,6 @@ body {
     height: max-content;
 }
 
-.githubicon {
-    width: max-content;
-    height: 15px;
-}
-
 .email-link {
     opacity: 0;
     display: flex;
@@ -460,6 +455,7 @@ body {
 
 .email-div {
     display: flex;
+    align-items: center;
     gap: 5px;
     background-color: #007AF5;
     border-radius: 15px;
@@ -472,8 +468,9 @@ body {
 
 }
 
-.fa-envelope {
-    margin-top: 3.5%;
+.mail {
+    width: 1vw;
+    height: 1vw;
 }
 
 .social-links {
