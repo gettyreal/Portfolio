@@ -74,9 +74,9 @@ body {
     justify-content: center;
 }
 
-.fa-brands {
-    width: max-content;
-    height: fit-content;
+.svg {
+    width: 2.5vw;
+    height: 2.5vw;
 }
 
 .homemenu {
@@ -360,8 +360,6 @@ body {
     height: 1px;
 }
 
-
-
 .project-text {
     color: #ebf5ffa9;
     font-size: clamp(0.6rem, 1vw, 1.3rem);
@@ -491,15 +489,6 @@ body {
     animation-delay: 0.2s;
 }
 
-.social-title {
-    font-size: clamp(1rem, 2vw, 2rem);
-    font-weight: 900;
-    line-height: 1.5;
-    text-align: center;
-    width: max-content;
-    height: max-content;
-}
-
 .socials {
     text-align: center;
     gap: 10vh;
@@ -508,17 +497,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-}
-
-.social-line {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20%;
-}
-
-.social-line i {
-    width: 40px;
 }
 
 .contact-form {
