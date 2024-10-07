@@ -61,7 +61,18 @@
         </div>
 
         <div class="contact-form">
-
+            <div class="form-title">Mettiti In Contatto: </div>
+            <div class="form-description">Mi puoi contattare anche attraverso il form qui sotto.</div>
+            <div class="message">
+                <form action="https://api.web3forms.com/submit" method="POST" class="form">
+                    <input type="hidden" name="access_key" value="4bf6405c-0097-4443-be28-509738d85471">
+                    
+                    <input type="text" name="name" placeholder="Nome" class="inputs name" required>
+                    <input type="email" name="email" placeholder="Email" class="inputs email" required>
+                    <textarea name="message" placeholder="Your message" class="inputs text" required></textarea>
+                    <button type="submit" class="submit-button">Send message</button>
+                </form>
+            </div>
         </div>
     </div>
 
