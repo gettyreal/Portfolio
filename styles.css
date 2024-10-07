@@ -478,8 +478,7 @@ body {
 
 .social-links {
     opacity: 0;
-    padding-top: 20px;
-    gap: 20px;
+    padding: 3vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -489,14 +488,10 @@ body {
     animation-delay: 0.2s;
 }
 
-.socials {
-    text-align: center;
-    gap: 10vh;
+.social-line {
     display: flex;
-    height: min-content;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .contact-form {
