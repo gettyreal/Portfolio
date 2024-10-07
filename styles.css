@@ -417,12 +417,15 @@ body {
 }
 
 .github-link {
+    opacity: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
     background-color: #303841ab;
+    animation: enterUp 0.5s ease forwards;
+    animation-delay: 0.3s;
 }
 
 .github-profile {
@@ -448,11 +451,13 @@ body {
 }
 
 .email-link {
+    opacity: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
     background-color: #303841ab;
+    animation: enterLeft 0.5s ease forwards;
 }
 
 .email-div {
@@ -466,6 +471,7 @@ body {
     font-size: clamp(0.6rem, 1vw, 1.3rem);
     line-height: 1.5;
     font-weight: 600;
+
 }
 
 .fa-envelope {
@@ -473,6 +479,7 @@ body {
 }
 
 .social-links {
+    opacity: 0;
     padding-top: 20px;
     gap: 20px;
     display: flex;
@@ -480,6 +487,8 @@ body {
     align-items: center;
     border-radius: 20px;
     background-color: #303841ab;
+    animation: enterLeft 0.5s ease forwards;
+    animation-delay: 0.2s;
 }
 
 .social-title {
@@ -492,11 +501,10 @@ body {
 }
 
 .socials {
-    padding-top: 20px;
     text-align: center;
     gap: 10vh;
     display: flex;
-    height: fit-content;
+    height: min-content;
     flex-direction: column;
     justify-content: center;
     align-content: center;
@@ -516,4 +524,7 @@ body {
 .contact-form {
     background-color: #303841ab;
     border-radius: 20px;
+    opacity: 0;
+    animation: enterUp 0.5s ease forwards;
+    animation-delay: 0.5s;
 }
