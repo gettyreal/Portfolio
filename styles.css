@@ -74,9 +74,14 @@ body {
     justify-content: center;
 }
 
-.fa-brands {
-    width: max-content;
-    height: fit-content;
+.svg {
+    width: 2.5vw;
+    height: 2.5vw;
+    transition: 0.3s;
+}
+
+.svg:hover {
+    scale: 1.1;
 }
 
 .homemenu {
@@ -282,17 +287,14 @@ body {
 }
 
 .iconcontainer {
-    padding-top: 30px;
+    padding-top: 1.5vw;
+    gap: 1vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     align-content: flex-start;
 }
 
-.iconcontainer i {
-    width: 50px;
-    height: 50px;
-}
 
 .projectscontainer {
     display: flex;
@@ -360,8 +362,6 @@ body {
     height: 1px;
 }
 
-
-
 .project-text {
     color: #ebf5ffa9;
     font-size: clamp(0.6rem, 1vw, 1.3rem);
@@ -428,6 +428,13 @@ body {
     animation-delay: 0.3s;
 }
 
+.github-link a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+
 .github-profile {
     font-size: clamp(0.8rem, 1.3vw, 1.5rem);
     line-height: 1.5;
@@ -445,11 +452,6 @@ body {
     height: max-content;
 }
 
-.githubicon {
-    width: max-content;
-    height: 15px;
-}
-
 .email-link {
     opacity: 0;
     display: flex;
@@ -462,6 +464,7 @@ body {
 
 .email-div {
     display: flex;
+    align-items: center;
     gap: 5px;
     background-color: #007AF5;
     border-radius: 15px;
@@ -474,14 +477,14 @@ body {
 
 }
 
-.fa-envelope {
-    margin-top: 3.5%;
+.mail {
+    width: 1vw;
+    height: 1vw;
 }
 
 .social-links {
+    padding: 1vw;
     opacity: 0;
-    padding-top: 20px;
-    gap: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -491,34 +494,24 @@ body {
     animation-delay: 0.2s;
 }
 
-.social-title {
-    font-size: clamp(1rem, 2vw, 2rem);
-    font-weight: 900;
-    line-height: 1.5;
-    text-align: center;
-    width: max-content;
-    height: max-content;
-}
-
-.socials {
-    text-align: center;
-    gap: 10vh;
-    display: flex;
-    height: min-content;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-}
-
 .social-line {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20%;
+    justify-content: space-evenly;
 }
 
-.social-line i {
-    width: 40px;
+.social-line a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title {
+    margin-top: 1vw;
+    height: fit-content;
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    font-weight: 800;
+    line-height: 1.5;
 }
 
 .contact-form {
