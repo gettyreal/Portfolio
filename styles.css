@@ -559,7 +559,9 @@ body {
 }
 
 .submit-button {
-    height: 1.5vw;
+    height: 2vw;
+    font-size: clamp(0.6rem, 1vw, 1rem);
+    line-height: 1.5;
     background-color: #303841ab;
     border: none;
     border-radius: 10px;
