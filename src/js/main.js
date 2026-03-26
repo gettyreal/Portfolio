@@ -1,9 +1,18 @@
-const url = `https://api.github.com/users/gettyreal`;
+// App initialization - imports modules and sets up event listeners
+import { fetchProfile } from './api.js';
+import { setupNavigation } from './nav.js';
 
-fetch(url)
-    .then(response => response.json())
-    .then(data => {
-        document.getElementById('profile-image').src = data.avatar_url;
-        document.getElementById('profile-name').textContent = data.login || 'No Name Available';
-    })
-    .catch(error => console.error('Error fetching data:', error));
+// Initialize app on document ready
+document.addEventListener('DOMContentLoaded', async function() {
+    // Setup navigation handlers
+    setupNavigation();
+
+    // Fetch and display GitHub profile
+    const profile = await fetchProfile();
+    if (profile) {
+        const profileImage = document.getElementById('profile-image');
+        const profileName = document.getElementById('profile-name');
+        if (profileImage) profileImage.src = profile.avatar_url;
+        if (profileName) profileName.textContent = profile.login;
+    }
+});
