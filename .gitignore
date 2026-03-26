@@ -1,0 +1,57 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Node.js (if using any build tools in future)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build/dist directories
+dist/
+build/
+*.min.js
+*.min.css
+
+# Planning & documentation (local development only)
+.planning 
+
+# IDE/Editor temporary files
+*.orig
+.DS_Store
+*.code-workspace
+
+# Logs
+*.log
+logs/
+
+# Sensitive files
+credentials.json
+config.json
+secrets.json
+
+# Testing coverage
+coverage/
+.nyc_output/
+
+# Database files (if applicable)
+*.db
+*.sqlite
+*.sqlite3
+
+# Public cache directories
+.cache/
+.temp/
+temp/

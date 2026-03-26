@@ -1,54 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Getty's Portfolio</title>
-        <link rel="stylesheet" href="styles.css">
-        <link
-            href="https://api.fontshare.com/v2/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
-    <body>
-        <div class="homemenu">
-            <a href="index.html"><button class="homebutton" id="home"
-                    onclick="homeLink()">Home</button></a>
-            <a href="projects.html"><button class="projectsbutton linkActive" id="projects"
-                    onclick="projectsLink()">Projects</button></a>
-            <a href="contact.html"> <button class="contactbutton" id="contact"
-                    onclick="contactLink()">Contact</button>
-            </a>
-        </div>
-        <div class="projectscontainer">
-            <div class="project1-img">
-                <img src="./public/plinko.webp" alt="project1 image" class="image">
-            </div>
-            <div class="project1">
-                <div class="project-description">
-                    <p class="project-text">
-                        <span class="project-title">Plinko-Ballz</span>
-                        Plinko Ballz is a copy of the famous plinko game but redesigned to have the same fun but without having to spend real money.
-                        The site is built using a mix of Html:5 CSS and JavaScript. 
-                    </p>
-                    <p class="project-languages">
-                        <span class="language">HTML</span>
-                        <span class="language">CSS</span>
-                        <span class="language">JavaScript</span>
-                    </p>
-                </div>
-                <div class="project-link">
-                    <a href="https://github.com/gettyreal/Plinko-app" target=”_blank”>
-                        <img src="./public/icons/link-solid.svg" alt="link svg" class="svg link">
-                    </a>
-                </div>
-            </div>
-        </div>
 
-        <script src="index.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getty's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="homemenu">
+        <a href="index.html"><button class="homebutton" id="home" onclick="homeLink()">Home</button></a>
+        <a href="projects.html"><button class="projectsbutton linkActive" id="projects"
+                onclick="projectsLink()">Projects</button></a>
+        <a href="contact.html"> <button class="contactbutton" id="contact" onclick="contactLink()">Contact</button>
+        </a>
+    </div>
+    <div class="projectscontainer">
+        <div class="project1-img">
+            <img src="./public/plinko.webp" alt="project1 image" class="image">
+        </div>
+        <div class="project1">
+            <div class="project-description">
+                <div class="project-text">
+                    <span class="project-title">Plinko-Ballz</span>
+                    Plinko Ballz is a copy of the famous plinko game but redesigned to have the same fun but without
+                    having to spend real money.
+                    The site is built using a mix of Html:5 CSS and JavaScript.
+                </div>
+                <div class="project-languages">
+                    <span class="language">HTML</span>
+                    <span class="language">CSS</span>
+                    <span class="language">JavaScript</span>
+                </div>
+            </div>
+            <div class="project-link">
+                <a href="https://github.com/gettyreal/Plinko-app" target=”_blank”>
+                    <img src="./public/icons/link-solid.svg" alt="link svg" class="svg link">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="projectscontainer">
+        <div class="project1-img">
+            <img src="./public/plinko.webp" alt="project1 image" class="image">
+        </div>
+        <div class="project1">
+            <div class="project-description">
+                <div class="project-text">
+                    <span class="project-title">Retro RPG</span>
+                    Retro RPG is a pokemon game remade in java that takes inspiration from the classic pokemon Emerald game.
+                    The game is built using Java and the LibGDX framework. with shades of 2d raytracing.
+                </div>
+                <div class="project-languages">
+                    <span class="language">Java</span>
+                    <span class="language">LibGDX</span>
+                </div>
+            </div>
+            <div class="project-link">
+                <a href="https://github.com/gettyreal/Retro-RPG" target=”_blank”>
+                    <img src="./public/icons/link-solid.svg" alt="link svg" class="svg link">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
 </html>
