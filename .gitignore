@@ -25,8 +25,8 @@ build/
 *.min.js
 *.min.css
 
-# Planning & documentation (local development only)
-.planning 
+# Planning & documentation (LOCAL ONLY - never commit to github)
+.planning/ 
 
 # IDE/Editor temporary files
 *.orig
